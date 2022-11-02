@@ -109,4 +109,4 @@ puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
 puts loves_to_play && age == 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I got true because I did age == 1 which is true and it is true they love to play.
