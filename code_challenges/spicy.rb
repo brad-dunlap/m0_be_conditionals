@@ -14,5 +14,6 @@ elsif (integer%3).zero? == true
     puts "Fizz"
 elsif (integer%5).zero? == true
     puts "Buzz"
-else puts #{integer}
+elsif (integer%3).zero? = false && (integer%5).zero? == false
+    puts #{integer}
 end
