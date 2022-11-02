@@ -7,7 +7,7 @@
 
 integer = 2
 
-if integer.multiple(3) == true && integer.multiple?(5) == true
+if integer.multiple?(3) == true && integer.multiple?(5) == true
     puts "FizzBuzz"
 elsif integer.multiple?(3) == true
     puts "Fizz"
