@@ -44,6 +44,8 @@ puts "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 "Is number_students less than or equal to 21?", number_students <= 21
 
+end
+
 
 
 #-------------------
