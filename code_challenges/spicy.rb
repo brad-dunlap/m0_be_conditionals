@@ -7,11 +7,11 @@
 
 
 integer = 5
-if (integer%3).zero == true && (integer%5).zero? == true
+if (integer%3).zero? == true && (integer%5).zero? == true
     puts "FizzBuzz"
-elsif (integer%3).zero == true
+elsif (integer%3).zero? == true
     puts "Fizz"
-elsif (integer%5).zero == true
+elsif (integer%5).zero? == true
     puts "Buzz"
 else
     puts "#{integer}"
