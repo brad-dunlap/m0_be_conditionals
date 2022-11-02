@@ -7,11 +7,11 @@
 
 integer = 2
 
-if integer.multiple?(3) == true && integer.multiple?(5) == true
+if (integer%3) == true && (integer%5) == true
     puts "FizzBuzz"
-elsif integer.multiple?(3) == true
+elsif (integer%3) == true
     puts "Fizz"
-elsif integer.multiple?(5) == true
+elsif (integer%5) == true
     puts "Buzz"
 else puts #{integer}
 end
