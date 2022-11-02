@@ -57,21 +57,25 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This is asking if 4 is less than 9 and will put a true or false statement. In this case, true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: This is setting the value of the variable books to 3. Then it is checking if 4 is less than the value of books,
+# which we set at 3. So we will get a false as 4 is not less than 3. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This is setting two variables. Friends is equal to 6, siblings is equal to 2. The code is comparing the value of the
+# two numbers. So in this case, is 6 > 2. Yes, so it will output a true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: This is setting two variables. Attendees is set at the integer 9 and meals is set at the integer 8. 
+# The code is asking if the number of attendees does NOT equal the number of meals. 9 does not equal 8, thus 
+# this is true. 
 
 
 #-------------------
@@ -94,15 +98,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play $$ age = 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
