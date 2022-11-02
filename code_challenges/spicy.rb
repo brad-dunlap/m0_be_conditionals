@@ -15,5 +15,5 @@ elsif (integer%3).zero? == true
 elsif (integer%5).zero? == true
     puts "Buzz"
 else 
-    puts #{integer}
+    puts "#{integer}"
 end
