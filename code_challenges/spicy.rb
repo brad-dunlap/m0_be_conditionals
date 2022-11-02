@@ -6,7 +6,7 @@
 #is not a multiple of either, print the Integer itself.
 
 
-integer = 5
+integer = 15
 
 if (integer%3).zero? == true && (integer%5).zero? == true
     puts "FizzBuzz"
