@@ -9,4 +9,4 @@ if integer.odd? == true
 puts "odd"
 else
     puts "even"
-    
+end
